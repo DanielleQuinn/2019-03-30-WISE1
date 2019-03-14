@@ -64,16 +64,13 @@ the pitch.
 {% comment %}
 AUDIENCE
 
-Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
-{% endcomment %}
-{% if page.carpentry == "swc" %}
-{% include sc/who.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
+Women in any field of research or industry who would benefit from 
+learning how to code, including graduate students, researchers, 
+faculty, and industry professionals from Memorial University or the 
+greater St. John's community. These workshops will cover introductory
+material from The Carpentries curriculum designed for those brand new
+to programming but may be suitable for those looking to expand upon 
+existing coding skills by learning a new programming language.
 
 {% comment %}
 LOCATION
